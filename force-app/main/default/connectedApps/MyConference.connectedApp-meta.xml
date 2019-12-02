@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>cwall@salesforce.com</contactEmail>
+    <label>MyConference</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:3000/oauthcallback.html</callbackUrl>
+        <consumerKey>3MVG9Km_cBLhsuPzd1h6oOfPL35fYzZRh2Mr7nrYhyAHM_3UghaOzmuOlBt7YUj93RckKacU5ajRqzvezrgko</consumerKey>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>
