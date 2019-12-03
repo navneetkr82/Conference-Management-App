@@ -10,6 +10,6 @@ public class AttachmentController {
         //Update the Picture_Path field with the url of the image
         Speaker__c speaker = [SELECT Id FROM Speaker__c WHERE Id = :recId];
         speaker.Picture_Path__c = '/sfc/servlet.shepherd/version/download/'+ ver.Id;
-        upsert speaker;
+        upsert speaker; 
     }
 }
